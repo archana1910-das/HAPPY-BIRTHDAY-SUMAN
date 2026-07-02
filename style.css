@@ -1,0 +1,64 @@
+body{
+    margin:0;
+    padding:0;
+    background:linear-gradient(135deg,#4b0082,#8a2be2);
+    font-family:Arial,sans-serif;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.container{
+    width:100%;
+    display:flex;
+    justify-content:center;
+}
+
+.card{
+    width:90%;
+    max-width:420px;
+    background:#ffffff;
+    border-radius:20px;
+    padding:30px;
+    text-align:center;
+    box-shadow:0 15px 35px rgba(0,0,0,.3);
+}
+
+.profile{
+    width:220px;
+    height:220px;
+    border-radius:50%;
+    object-fit:cover;
+    border:6px solid #8a2be2;
+    margin:20px auto;
+}
+
+h1{
+    color:#7b2cbf;
+}
+
+h3{
+    color:#9d4edd;
+}
+
+.message{
+    color:#444;
+    line-height:1.8;
+    font-size:18px;
+}
+
+button{
+    background:#8a2be2;
+    color:white;
+    border:none;
+    padding:15px 30px;
+    border-radius:30px;
+    cursor:pointer;
+    font-size:18px;
+    margin-top:20px;
+}
+
+button:hover{
+    background:#6a0dad;
+}
